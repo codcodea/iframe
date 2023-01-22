@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- En bild -->
+      <img
+        class="macbook"
+        id="macbook"
+        src="public/macbook.png"
+        width="100%"
+        alt="macbook"
+      />
+    
+      <!-- Ligger över en iframe -->
+      <iframe
+        src="https://fiveby7.com/_sites/mydomain/chloe"
+        width="100%"
+        height="100%"
+        style="border: 1px solid black"
+      >
+      </iframe>
+      <img />
+    </div>
+    <div class="under"></div>
+    <div id="info" class="info">
+      <div id="message"></div>
+      <button id="toggle-button" class="button"> Toggle </button>
+      <button id="info-button" class="button"> OK </button>
+    </div>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="messages.js"></script>
+  </body>
+</html>
